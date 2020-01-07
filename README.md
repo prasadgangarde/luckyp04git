@@ -1,2 +1,2 @@
 # luckyp04git
-This is my first git file
+This is my first git file version 1.0
