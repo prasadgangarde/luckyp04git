@@ -18,7 +18,7 @@
   <build>
     <finalName>my-webapp</finalName>
   </build>
-</project>
+#</project>
 <plugin>
 		<groupId>org.apache.tomcat.maven</groupId>
 		<artifactId>tomcat7-maven-plugin</artifactId>
@@ -29,3 +29,4 @@
 			<path>/home/ec2-user/apache-tomcat-9.0.31/webapps/my-webapp</path>
 		</configuration>
 	</plugin>
+</project>
