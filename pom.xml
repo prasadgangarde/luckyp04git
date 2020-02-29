@@ -17,16 +17,16 @@
   </dependencies>
   <build>
     <finalName>my-webapp</finalName>
-  </build>
-#</project>
 <plugin>
-		<groupId>org.apache.tomcat.maven</groupId>
-		<artifactId>tomcat7-maven-plugin</artifactId>
-		<version>2.2</version>
-		<configuration>
-			<url>http://3.15.221.56/8080/</url>
-			<server>TomcatServer</server>
-			<path>/home/ec2-user/apache-tomcat-9.0.31/webapps/my-webapp</path>
-		</configuration>
-	</plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                        <url>http://3.15.221.56/8080/</url>
+                        <server>TomcatServer</server>
+                        <path>/home/ec2-user/apache-tomcat-9.0.31/webapps/my-webapp</path>
+                </configuration>
+        </plugin>
+
+  </build>
 </project>
